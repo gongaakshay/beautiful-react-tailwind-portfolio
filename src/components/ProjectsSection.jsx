@@ -63,6 +63,7 @@ export const ProjectsSection = () => {
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
+                    // eslint-disable-next-line react/jsx-key
                     <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
                       {tag}
                     </span>
@@ -100,7 +101,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/gongaakshay"
           >
             Check My Github <ArrowRight size={16} />
           </a>
